@@ -1,0 +1,145 @@
+.header {
+  /* position: fixed; */
+  height: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  padding-left: 20px;
+}
+.rightside {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20px;
+}
+.footer {
+  margin-bottom: 10px; 
+  
+}
+
+/* .header, .footer {
+  position: absolute;
+  height: 40px;
+} */
+ 
+
+
+/* .EID, .passport {
+  background-color: white;
+  margin-top: 70px;
+  margin: 0 auto;
+  width: 850px;
+  height: 70px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.text{
+  color: blanchedalmond;
+}
+
+
+.Idheader {
+  width: 850px;
+  /* padding-left: 300px; */
+}
+
+
+.onLine {
+  /* width: 850px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ident{
+  margin-left: 20px;
+  /* color: white; */
+}
+
+#next{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; 
+  border-radius: 4px;
+  width: 70px;
+  height: 20px;
+  background-color: rgb(11, 25, 235);
+  /* text-align: center; */
+}
+
+.orangeButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* vertical-align: middle; */
+  border-radius: 4px;
+  background-color: orange;
+  width: 150px;
+  height: 40px;
+  /* text-align: center; */
+  border-radius: 4px;
+}
+
+
+.whiteBlock{
+  background-color: white;
+  margin-top: 20px;
+  /* margin: 0 auto; */
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.buttonWithBlock{
+  margin-top: 20px;
+
+}
+
+.navigation{
+  background-color: white;
+  width: 30%;
+  height: 500px;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background-color: black */
+  align-items: space-between;
+  justify-content: space-between;
+
+}
+
+
+.identification {
+  /* height: 80%; */
+}
+
+.nav {
+  flex-grow: 1;
+  margin-top: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80% ;
+}
+ul {
+  width: 20%;
+}
