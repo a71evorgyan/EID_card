@@ -12,9 +12,10 @@ export default class ButtonWithBlock extends Component {
     const {name, value} = event.target; 
     // console.log(name);
     // console.log(this.state);
-    this.setState({
+    this.setState(prev => ({
+        ...prev,
         [name]: value,
-    });
+    }));
   };
 
   handeClick = (event) => {
