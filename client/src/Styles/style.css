@@ -10,38 +10,21 @@
 .menu {
   padding-left: 20px;
 }
-.rightside {
+/* .rightside {
   width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding-right: 20px;
-}
+} */
 .footer {
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px; 
   
 }
 
-/* .header, .footer {
-  position: absolute;
-  height: 40px;
-} */
- 
-
-
-/* .EID, .passport {
-  background-color: white;
-  margin-top: 70px;
-  margin: 0 auto;
-  width: 850px;
-  height: 70px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-} */
 
 .text{
   color: blanchedalmond;
@@ -128,7 +111,7 @@
 
 
 .identification {
-  /* height: 80%; */
+  margin-right: 25%;
 }
 
 .nav {

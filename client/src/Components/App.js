@@ -14,15 +14,15 @@ export default class App extends Component {
     return (
      
       <div className="app">
-        <Path />
-        {/* <Header/>
-        <Naviagation/> */}
+        {/* <Path /> */}
+        <Header/>
+        <Naviagation/> 
 
-          <Identification/>
+        {/* <Identification/> */}
        
         {/* <Details/> */}
         {/* <Dashboard/> */}
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     );
   }

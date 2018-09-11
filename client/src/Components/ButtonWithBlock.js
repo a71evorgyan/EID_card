@@ -69,21 +69,22 @@ export default class ButtonWithBlock extends Component {
            
             <TextField
               id={third.replace(/[\s.]/g,'')}
-              // type="time"
+              type="time"
               label={third}
               name={third.replace(/[\s.]/g,'')}
               className='text'
-              value={this.state.name}
+              value={this.state[third.replace(/[\s.]/g,'')]}
               onChange={this.handleChange(third.replace(/[\s.]/g,''))}
               margin="normal"
             />
 
             <TextField
               id={fourth.replace(/[\s.]/g,'')}
+              type="time"
               label={fourth}
               name={fourth.replace(/[\s.]/g,'')}
               className='text'
-              value={this.state.name}
+              value={this.state[fourth.replace(/[\s.]/g,'')]}
               onChange={this.handleChange(fourth.replace(/[\s.]/g,''))}
               margin="normal"
             /> 

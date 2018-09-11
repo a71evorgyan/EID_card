@@ -4,6 +4,10 @@ var bodyParser = require('body-parser');
 const fs = require('fs');
 
 const app = express();
+// fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
+//   if (err) return console.log(err);
+//   console.log('Hello World > helloworld.txt');
+// });
 
 let mainPath = '';
 console.log("mainpath", mainPath);
@@ -53,6 +57,13 @@ const generateFileTree = (mainpath) => {
   return file;
 }
 
+const writeInFile = (file, text) => {
+  fs.writeFile(file, text, function (err) {
+    if (err) return console.log(err);
+    console.log('text > file');
+  });
+}
+
 
 app.post('/api', (req, res) => {
   console.log("body", req.body.path);
@@ -67,6 +78,7 @@ app.post('/api', (req, res) => {
 app.post('/ident', (req, res) => {
   console.log('yaa');
   console.log("body", req.body);
+  writeInFile('file.txt', JSON.stringify(req.body))
   res.json({obj: "hi"});
   // res.redirect('/api');
 
